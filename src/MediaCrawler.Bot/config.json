@@ -1,0 +1,43 @@
+{
+  "ConnectionStrings": {
+    //"SqlConn": "Database=simada_backup; Data Source=localhost; User Id=root; Password=123qweasd",
+    "SqlConn": "Database=carcounterdb; Data Source=silpodb.mysql.database.azure.com; User Id=BalittanahAdmin@silpodb; Password=Balit123qweasd!",
+    "BlobConn": "DefaultEndpointsProtocol=https;AccountName=storagemurahaje;AccountKey=NU2f/5suzFgLyGYplR6ydXQ+6L8STLCRviDqJf+MS8bVWsO3L5VWFK3qaUltdPNwdd092st0eJWQIBvLI0WI1A==;EndpointSuffix=core.windows.net"
+  },
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft": "Warning",
+      "Microsoft.Hosting.Lifetime": "Information"
+    }
+  },
+  "AllowedHosts": "*",
+  "MailSettings": {
+    "MailUser": "mifmasterz@outlook.com",
+    "MailPassword": "123qweasd",
+    "MailServer": "smtp.outlook.com",
+
+    //"MailUser": "apbn.bogor@gmail.com",
+    //"MailPassword": "apbn123qweasd",
+    //"MailServer": "smtp.gmail.com",
+    "SendGridKey": "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",
+    "TemplatePath": "wwwroot\\template\\email.html",
+    "MailPort": 587
+  },
+  "SmsSettings": {
+    "ZenzivaUserKey": "syawhe",
+    "ZenzivaPassKey": "99tzmncvrz",
+    "TokenKey": "9ddb7dc788dc2e31ad12ddeafa56f8fe"
+  },
+  "App": {
+    "twitter_consumer_key": "MKbCFe1z8IYVyjMJsSnvA",
+    "twitter_consumer_secret": "zmAQFP52CTO1ZYzoFLMnLxELeyt7iYIrCVs59mFkQ",
+    "twitter_access_key": "15628267-9gcYmNIn4rKeZYDbZn2pUULT0tOTH45NHBtfAxyrx",
+    "twitter_access_secret": "p3xwkxvbPw6IYiAUZglMKZOcUrskUg9YLz55dN8zCHIYb",
+    "twitter_access_token": "AAAAAAAAAAAAAAAAAAAAAJqWEQAAAAAAepcU5ZwvnobP4X4Is%2BgrNwmjBZE%3DaElEDfHqN793qlouHP80gL29Qv9G4YiHdie56OAJ0ww4s6SRHC",
+    "BotId": "Crawler-001",
+    //"GrpcUrl": "https://carcounterservice.azurewebsites.net/"
+    "GrpcUrl": "https://localhost:7091/"
+  },
+  "GmapKey": "AIzaSyDpqcgMnKf1TnQPRQKNmlnUgqh_EI0t_Iw"
+}

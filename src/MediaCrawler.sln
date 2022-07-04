@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32505.426
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Crawler", "Crawler", "{4FEA1EEE-556A-4E94-B4A3-7443DFE68065}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service", "Service", "{A3EF6C37-A5D1-401F-9447-AB7B82066321}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{40984F33-A625-44D0-B114-344CA9442CA9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "App", "App", "{61656CEB-6111-43E0-911B-D757212EA6BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediaCrawler.Bot", "MediaCrawler.Bot\MediaCrawler.Bot.csproj", "{9C31D5D6-674D-4E3D-B710-EA7962AF0D1E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{E3DCC3D9-63E0-4468-BC8B-C3B3282CB3C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediaCrawler.Models", "MediaCrawler.Models\MediaCrawler.Models.csproj", "{128F1128-C463-4CC6-BB81-B838E21C92D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediaCrawler.Tools", "MediaCrawler.Tools\MediaCrawler.Tools.csproj", "{6B62A247-D581-4777-9411-3DA527D25176}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9C31D5D6-674D-4E3D-B710-EA7962AF0D1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C31D5D6-674D-4E3D-B710-EA7962AF0D1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C31D5D6-674D-4E3D-B710-EA7962AF0D1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C31D5D6-674D-4E3D-B710-EA7962AF0D1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{128F1128-C463-4CC6-BB81-B838E21C92D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{128F1128-C463-4CC6-BB81-B838E21C92D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{128F1128-C463-4CC6-BB81-B838E21C92D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{128F1128-C463-4CC6-BB81-B838E21C92D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B62A247-D581-4777-9411-3DA527D25176}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B62A247-D581-4777-9411-3DA527D25176}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B62A247-D581-4777-9411-3DA527D25176}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B62A247-D581-4777-9411-3DA527D25176}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9C31D5D6-674D-4E3D-B710-EA7962AF0D1E} = {61656CEB-6111-43E0-911B-D757212EA6BF}
+		{128F1128-C463-4CC6-BB81-B838E21C92D0} = {E3DCC3D9-63E0-4468-BC8B-C3B3282CB3C1}
+		{6B62A247-D581-4777-9411-3DA527D25176} = {E3DCC3D9-63E0-4468-BC8B-C3B3282CB3C1}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8B5D75F4-7040-4010-A5AD-4DC618571755}
+	EndGlobalSection
+EndGlobal
